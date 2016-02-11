@@ -29,6 +29,7 @@ public class UserAction extends ActionSupport  implements ModelDriven<UserLoginF
 	
 	public String execute() {
 		System.out.println("success");
+		System.out.println("There is an execute method");
 	return SUCCESS;
 
 	
